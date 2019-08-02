@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Мастерская Цвета - тестовая странца, созданная в качестве тестового задания для студии Dancecolor.">
+  <meta name="author" content="Sergei Kniazev">
+  <meta name="copyright" content="Мастерская Света, Смоленск">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/slider.js"></script>
+  <script src="js/dropdown.js"></script>
+  <title>Мастерская Цвета</title>
+</head>
+<body>
+  <header class="header">
+    <a href="/" class="header__logo">
+      <h1 class="header__logo_primary">Мастерская Цвета<br></h1>
+      <h4 class="header__logo_secondary">Салон-студия красок</h4>
+    </a>
+    <nav class="header__nav">
+      <div class="header__links">
+        <a href="#" class="header__link header__link_opened">Мы открыты</a>
+        <a href="#" class="header__link header__link_address">Смоленск, пр-т Гагарина 7</a>
+        <a href="#" class="header__link header__link_phone-number">(4812) 63-37-37 | (903) 649-37-37</a>
+      </div>
+      <div class="header__menu">
+        <button class="header__dropdown header__menu-item">
+          <div class="header__dropdown-head">Каталог</div>
+          <div class="header__dropdown-body">
+              <div class="header__dropdown-item">Краски</div>
+              <div class="header__dropdown-item">Эмали</div>
+              <div class="header__dropdown-item">Грунтовки и пропитки</div>
+              <div class="header__dropdown-item">Лаки</div>
+              <div class="header__dropdown-item">Декоративные краски и штукатурки</div>
+              <div class="header__dropdown-item">Декоративный камень и лепнина</div>
+              <div class="header__dropdown-item">Фотообои и фрески</div>
+              <div class="header__dropdown-item">Малярный инструмент</div>
+            </div>
+        </button>
+        
+        <button class="header__dropdown header__menu-item">
+          <div class="header__dropdown-head">Подбор материала</div>
+        </button>
+        <button class="header__dropdown header__menu-item">
+          <div class="header__dropdown-head">Услуги</div>
+        </button>
+        <a href="#" class="header__menu-item"><span>Акции </span><span class="header__discount-counter">3</span></a>
+        <a href="#" class="header__menu-item">Портфолио</a>
+        <a href="#" class="header__menu-item">Контакты</a>
+      </div>
+    </nav>
+
+    <div class="header__connect">
+      <a href="#" class="header__request-call">Заказать звонок</a>
+      <div class="header__social-networks">
+        <a href="#" class="header__social-network"><img src="/assets/vk.svg" alt="VK"></a>
+        <a href="#" class="header__social-network"><img src="/assets/facebook.svg" alt="Facebook"></a>
+        <a href="#" class="header__social-network"><img src="/assets/instagram.svg" alt="Instagram"></a>
+      </div>
+    </div>
+  </header>
+
+  <section class="poster">
+    <div class="poster__wrapper">
+      <h2 class="poster__header">Цвет вашего комфорта</h2>
+      <p class="poster__description">Выбирайте свой цвет из 20 000 оттенков, а если не найдёте нужный, мы смешаем любой цвет и оттенок при вас.</p>
+      <a href="#" class="poster__advice-button">Подобрать материал</a>
+      <div class="poster__achievements">
+        <p class="poster__achievement poster__achievement_paint">Разбираемся в краске уже 15 лет</p>
+        <p class="poster__achievement poster__achievement_clients">Более 1000 довольных клиентов</p>
+        <p class="poster__achievement poster__achievement_square">Покрасили более 10 000 м2</p>
+      </div>
+  
+      <div class="poster__control-buttons">
+        <div class="poster__control-button poster__control-button_next"></div>
+        <div class="poster__control-button poster__control-button_prev"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services">
+    <h2 class="services__header">Наши услуги</h2>
+    <p class="services__description">Предпочитаем перед продажей подробно консультировать клиентов, дабы избежать ошибок и недочётов</p>
+    <div class="services__service-list">
+      <a href="#" class="services__service-wrapper services__service-wrapper_paint">
+        <div class="services__service">Компьютерная колировка краски<br><div class="services__service-about">Подробнее</div></div>
+      </a>
+      <a href="#" class="services__service-wrapper services__service-wrapper_materials">
+        <div class="services__service">Помощь в выборе материалов с выездом на дом<br><div class="services__service-about">Подробнее</div></div>
+      </a>
+      <a href="#" class="services__service-wrapper services__service-wrapper_surfaces">
+        <div class="services__service">Нанесение декоративных покрытий<br><div class="services__service-about">Подробнее</div></div>
+      </a>
+    </div>
+  </section>
+
+  <section class="get-help">
+    <h2 class="get-help__header">Нужна помощь эксперта?</h2>
+    <p class="get-help__description">Оставьте свои контактные данные и наш специалист перезвонит в течение 15 минут и проконсультирует вас абсолютно бесплатно.</p>
+
+    <form class="get-help__form">
+      <input type="text" name="phone-number" id="input-phone-number" class="get-help__phone-input" placeholder="Ваш номер телефона">
+      <input type="submit" value="Позвоните мне" class="get-help__submit-phone">
+    </form>
+  </section>
+
+  <section class="guarantees">
+    <h4 class="guarantees__mark">Мастерская Цвета</h4>
+    <h2 class="guarantees__header">Ваши гарантии и преимущества</h2>
+    <div class="guarantees__guarantees-grid">
+      <div class="guarantees__guarantee guarantees__guarantee_assortment">
+        <h3 class="guarantees__guarantee-header">Огромный ассортимент</h3>
+        <p class="guarantees__guarantee-description">Выберите свой цвет из 20 000 оттенков, а если не найдёте нужный, мы смешаем любой цвет и оттенок при вас</p>
+      </div>
+      <div class="guarantees__guarantee guarantees__guarantee_call">
+        <h3 class="guarantees__guarantee-header">Выезд к клиенту</h3>
+        <p class="guarantees__guarantee-description"><a href="#" class="guarantees__request-link">Оставьте заявку</a> и мы выедем к вам на дом, чтобы проконсультировать вас на месте и подобрать верные решения</p>
+      </div>
+      <div class="guarantees__guarantee guarantees__guarantee_memory">
+        <h3 class="guarantees__guarantee-header">Помним о вас</h3>
+        <p class="guarantees__guarantee-description">Даже спустя несколько лет, вы можете прийти к нам и мы найдём номер вашей краски и снова его повторим!</p>
+      </div>
+      <div class="guarantees__guarantee guarantees__guarantee_experience">
+        <h3 class="guarantees__guarantee-header">Многолетний опыт</h3>
+        <p class="guarantees__guarantee-description">Все специалисты нашего салона работают в сфере колористики и дизайна более 10 лет, поэтому нам можно доверять безоговорочно.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="examples">
+    <h2 class="examples__header">Нашими красками покрашены</h2>
+    <div class="examples__control-buttons">
+      <div class="examples__control-button examples__control-button_prev" id="examples-slider-btn-prev"></div>
+      <div class="examples__control-button examples__control-button_next" id="examples-slider-btn-next"></div>
+    </div>
+
+    <div class="examples__example-slider">
+      <a href="#" class="examples__example examples__example_theatre" data-order="1">
+        <div class="examples__example-title">Смоленский областной театр кукол имени Д.Н. Светильникова<br><span class="examples__example-about">Подробнее</span></div>
+      </a>
+      <a href="#" class="examples__example examples__example_cathedral" data-order="2">
+        <div class="examples__example-title">Успенский кафедральный собор в Смоленске<br><span class="examples__example-about">Подробнее</span></div>
+      </a>
+      <a href="#" class="examples__example examples__example_railway-station" data-order="3">
+        <div class="examples__example-title">Смоленский центральный вокзал<br><span class="examples__example-about">Подробнее</span></div>
+      </a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__contacts">
+      <h2 class="footer__title_primary">Мастерская цвета</h2>
+      <h4 class="footer__title_secondary">Салон-студия красок</h4>
+
+      <div class="footer__notes">
+        <div class="footer__note footer__note_opened">Мы открыты</div>
+        <div class="footer__note footer__note_phone-number">(4812) 63-37-37 | (903) 649-37-37</div>
+        <div class="footer__note footer__note_address">Смоленск, пр-т Гагарина 7</div>
+      </div>
+
+      <div class="footer__social-networks">
+        <a href="#" class="footer__social-network footer__social-network_vkontakte"><img src="/assets/icon-vk-footer.svg" alt="VK"></a>
+        <a href="#" class="footer__social-network footer__social-network_facebook"><img src="/assets/icon-facebook-footer.svg" alt="Facebook"></a>
+        <a href="#" class="footer__social-network footer__social-network_instagram"><img src="/assets/icon-instagram-footer.svg" alt="Instagram"></a>
+      </div>
+    </div>
+
+    <div class="footer__links">
+      <a href="#" class="footer__link">Каталог</a>
+      <a href="#" class="footer__link">Портфолио</a>
+      <a href="#" class="footer__link">Подбор материала</a>
+      <a href="#" class="footer__link">Блог</a>
+      <a href="#" class="footer__link">Акции</a>
+      <a href="#" class="footer__link">О нас</a>
+      <a href="#" class="footer__link">Услуги</a>
+      <a href="#" class="footer__link">Контакты</a>
+    </div>
+
+    <div class="footer__info">
+      <p class="footer__copyright">© 2019 «Мастерская цвета» Смоленск</p>
+      <a href="#" class="footer__privacy-policy-link">Политика конфиденциальности</a>
+      <div class="footer__dancecolor-logo">
+        <h4 class="footer__dancecolor-logo-description">Сделано для продвижения</h4>
+        <h2 class="footer__dancecolor-logo-title">Dancecolor</h2>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
